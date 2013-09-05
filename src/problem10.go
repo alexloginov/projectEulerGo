@@ -11,7 +11,6 @@ func main() {
 	for i := 3; i < 2000000; i = i + 2 {
 		if IsPrime(i) {
 			sum = sum + i
-			fmt.Printf("%v \n",i);
 		}
 	}
 	fmt.Print(sum)
